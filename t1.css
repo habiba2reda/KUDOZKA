@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    position: relative;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    z-index: -1000;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 90px 0px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul li a{
+    margin: 0px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+nav .login{
+    position: relative;
+}
+nav .login img{
+    width: 85px;
+    height: 30px;
+}
+nav .login span{
+    position: absolute;
+    left: 29%;
+    top: 14%;
+    font-size: 16px;
+    color: black;
+}
+nav .login span:hover{
+    color: #d092f5;
+    transition: 0.4s
+}
+.links{
+    border-radius: 3px;
+}
+.links:hover{
+    color: blueviolet;
+    border-width: 8px;
+    border-bottom: 2px solid rgb(163, 76, 244);
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.images{
+    width: 50%;
+    position: relative;
+}
+.images .image_1{
+    width: 100%;
+    opacity:.85 ;
+}
+.images .image_2{
+    position: absolute;
+    width: 45%;
+    top: 0;
+    left: 24%;
+}
+.images .image_3{
+position: absolute;
+top: 58.5%;
+left: 16%;
+width: 68%;
+}
+.text{
+    padding-top: 220px;
+    width: 50%;
+}
+.text h1{
+    font-size: 45px;
+    color: rgb(146, 142, 142);
+}
+.text h1 span{
+    color: #a259cd;
+}
+.text .paragraph{
+    color: rgb(136, 135, 135);
+    font-size:22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.waves{
+    width: 85%;
+    position: absolute;
+    bottom: -3.5%;
+    left: -10%;
+}
+
+.middle{
+    position: relative;
+    text-align: center;
+    height: 130vh; 
+    padding: 0px 100px;
+}
+.all_divs div{
+    width: 400px;
+}
+.all_divs div img{
+    width: 220px;
+}
+.all_divs div h3{
+    color: rgb(106, 99, 99);
+    font-size:23px;
+}
+.all_divs div p{
+    color: rgb(136, 131, 131);
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 8px;
+}
+.div1{
+    position: absolute;
+    top: 14.5%;
+    left: 9.5%;
+}
+.div2{
+    position: absolute;
+    top: 31%;
+    left: 43%;
+}
+.div3{
+    position: absolute;
+    top: 62.5%;
+    left: 69%;
+}
+.div4{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.div4 .all_part img{
+    width: 320px;
+}
+.div4 .all_part{
+    position: relative;
+}
+.div4 .all_part div{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    text-align: left;
+}
+.div4 .all_part p{
+    color: white;
+    font-size: 18px;
+}
+.div4 .all_part h3{
+    color: white;
+    font-size: 42px;
+    font-weight: 400;
+}
+.background_2{
+    position: absolute;
+    width: 70%;
+    top: 6%;
+    left: 23%;
+}
+.middle_p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.middle_p2 div h3{
+    color: rgb(106, 99, 99);
+    font-size:23px;
+    margin-top: -25px;
+}
+.middle_p2 div .para3{
+    color: rgb(136, 131, 131);
+    font-size: 19px;
+    margin-top: 20px;
+}
+footer{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+.group_img{
+    position: absolute;
+    width: 110%;
+    top: 0;
+    left: -3%;   
+}
+.client{
+    position: absolute;
+    width: 45%;
+    right: 9%;
+    bottom: 0%;
+}
+ footer .footer_btn{
+position: relative;
+width: 130px;
+height: 50px;
+margin-right: 35px;
+}
+footer .footer_btn .btn_img{
+    width: 120px;
+    height: 43px;
+}
+footer .footer_btn div{
+    position: absolute;
+    left: 6%;
+    bottom: 44%;
+    display: flex;
+    align-items: center;
+}
+footer .footer_btn div p{
+    color:rgb(83, 79, 79);
+    font-size: 12px;
+}
+footer .footer_btn div span{
+    display: flex;
+    color: #7e41a2;
+    font-size:18px ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 25px;
+}
+footer ul li a{
+   margin-right:15px;
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: #a259cd;
+}
+footer .end_tx{
+    position: absolute;
+    top: 69%;
+    left: 6%;
+}
+footer .end_tx .social{
+    margin-top: 25px;
+    
+}
+footer .end_tx .social img{
+    margin-left:  6px;
+    margin-right: 6px;
+    cursor: pointer;
+}
